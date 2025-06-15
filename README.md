@@ -31,6 +31,7 @@ This is a simple PHP-based Calendar project using XAMPP, HTML, PHP, CSS, and Jav
 - Import `calendar.sql` from the `sql` folder
 
 5. **Check the database connection settings in `db_connection.php`**
+
 ```php
 $host = "localhost"; // Keep this as is
 $username = "root";
@@ -39,5 +40,5 @@ $database = "calendar";
 $conn = new mysqli($host, $username, $password, $database);
  If your MySQL port is not 3307 , update the host like this:
 $host = "3306"; // Example if your MySQL runs on port 3306 (default)
-
+```php
 6. Visit the project in your browser

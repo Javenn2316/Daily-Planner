@@ -40,5 +40,6 @@ $database = "calendar";
 $conn = new mysqli($host, $username, $password, $database);
  If your MySQL port is not 3307 , update the host like this:
 $host = "3306"; // Example if your MySQL runs on port 3306 (default)
-```php
-6. Visit the project in your browser
+
+
+6. **Visit the project in your browser**

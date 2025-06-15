@@ -1,6 +1,6 @@
-# Calendar PHP Project
+# Daily Planner Project
 
-This is a simple PHP-based Calendar project using XAMPP, HTML, PHP, CSS, and JavaScript.
+This is a simple PHP-based Daily Planner project using XAMPP, HTML, PHP, CSS, and JavaScript.
 
 ## 📂 Project Structure
 

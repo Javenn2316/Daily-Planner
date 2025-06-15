@@ -6,8 +6,7 @@ This is a simple PHP-based Calendar project using XAMPP, HTML, PHP, CSS, and Jav
 
 - `index.php` – Main calendar page
 - `db_connection.php` – Handles database connection
-- `assets/` – CSS, JS, images, etc.
-- `sql/calendar.sql` – SQL file to create database tables
+- `newdb.sql` – SQL file to create database tables
 
 ## ✅ Requirements
 
@@ -31,15 +30,16 @@ This is a simple PHP-based Calendar project using XAMPP, HTML, PHP, CSS, and Jav
 - Import `calendar.sql` from the `sql` folder
 
 5. **Check the database connection settings in `db_connection.php`**
-
-```php
-$host = "localhost"; // Keep this as is
+   ```php
+$servername = "localhost";
 $username = "root";
 $password = "";
-$database = "calendar";
-$conn = new mysqli($host, $username, $password, $database);
+$dbname = "newdb";
+$port = 3307; // Change if needed
+$conn = new mysqli($servername, $username, $password, $dbname, $port);
  If your MySQL port is not 3307 , update the host like this:
-$host = "3306"; // Example if your MySQL runs on port 3306 (default)
-
+$port = "3306"; // Example if your MySQL runs on port 3306 (default)
 
 6. **Visit the project in your browser**
+
+
